@@ -7,7 +7,7 @@
 # end
 
 def reverse_each_word(string)
-  arrayOfReversedWords = string.split.map do |letter|
+  arrayOfReversedWords = string.split.collect do |letter|
     letter.reverse
    end
    arrayOfReversedWords.join(" ")
