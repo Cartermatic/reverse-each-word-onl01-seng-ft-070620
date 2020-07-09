@@ -6,3 +6,9 @@
 #   arrayofreversedwords.join(" ")
 # end
 
+def reverse_each_word(string)
+  arrayOfReversedWords = string.split.map do |letter|
+    letter.reverse
+   end
+   arrayOfReversedWords.join(" ")
+end
